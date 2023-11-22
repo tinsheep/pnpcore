@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AzureFunctionsVersion>v4</AzureFunctionsVersion>
@@ -8,8 +8,9 @@
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.0.13" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.7.0" OutputItemType="Analyzer" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.10.0" />
-    <PackageReference Include="PnP.Core.Admin" Version="1.8.2-nightly" />
-    <PackageReference Include="PnP.Core.Auth" Version="1.8.2-nightly" />
+    <PackageReference Include="PnP.Core.Admin" Version="1.10.146-nightly" />
+    <PackageReference Include="PnP.Core.Auth" Version="1.10.146-nightly" />
+    <PackageReference Include="PnP.Framework" Version="1.13.135-nightly" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
